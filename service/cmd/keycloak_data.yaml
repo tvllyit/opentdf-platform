@@ -25,7 +25,7 @@ realms:
             - mygroupvalue
     clients:
       - client:
-          clientID: opentdf
+          clientId: opentdf
           enabled: true
           name: opentdf
           serviceAccountsEnabled: true
@@ -37,7 +37,7 @@ realms:
           - opentdf-admin
         copies: 10
       - client:
-          clientID: opentdf-sdk
+          clientId: opentdf-sdk
           enabled: true
           name: opentdf-sdk
           serviceAccountsEnabled: true
@@ -48,7 +48,7 @@ realms:
         sa_realm_roles:
           - opentdf-standard
       - client:
-          clientID: tdf-entity-resolution
+          clientId: tdf-entity-resolution
           enabled: true
           name: tdf-entity-resolution
           serviceAccountsEnabled: true
@@ -63,7 +63,7 @@ realms:
             - view-users
             - query-users
       - client:
-          clientID: tdf-authorization-svc
+          clientId: tdf-authorization-svc
           enabled: true
           name: tdf-authorization-svc
           serviceAccountsEnabled: true
@@ -72,7 +72,7 @@ realms:
           protocolMappers:
             - *customAudMapper
       - client:
-          clientID: cli-client
+          clientId: cli-client
           enabled: true
           name: cli-client
           serviceAccountsEnabled: false
